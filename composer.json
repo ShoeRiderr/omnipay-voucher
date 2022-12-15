@@ -1,5 +1,5 @@
 {
-    "name": "sunapp/omnipay-voucher",
+    "name": "shoeriderr/omnipay-voucher",
     "type": "library",
     "description": "Voucher driver for the Omnipay payment processing library",
     "keywords": [
