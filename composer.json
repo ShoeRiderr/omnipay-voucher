@@ -10,10 +10,11 @@
         "pay",
         "payment"
     ],
+    "homepage": "https://github.com/ShoeRiderr/omnipay-voucher",
     "authors": [
         {
-            "name": "SunGroup",
-            "email": "biuro@sungroup.pl"
+            "name": "Kamil Socha",
+            "email": "kamilsocha20@gmail.com"
         }
     ],
     "autoload": {
@@ -24,10 +25,5 @@
     },
     "require-dev": {
         "omnipay/tests": "^2.0||^3.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
