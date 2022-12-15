@@ -1,0 +1,33 @@
+{
+    "name": "sunapp/omnipay-voucher",
+    "type": "library",
+    "description": "Voucher driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "voucher",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "authors": [
+        {
+            "name": "SunGroup",
+            "email": "biuro@sungroup.pl"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Voucher\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^2.0||^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^2.0||^3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
