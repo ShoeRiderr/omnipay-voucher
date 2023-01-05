@@ -11,6 +11,11 @@ class Request extends AbstractRequest
         return $this->getParameters();
     }
 
+    public function setStatus($status)
+    {
+        $this->parameters->set('status', $status);
+    }
+
     public function sendData($data)
     {
         return $this->response = new Response($this, $data);
